@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logtv"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:text="Login:"
+            android:textStyle="bold"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/usernamelet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/logtv"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/passwordlet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/usernamelet"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/btnlogl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/passwordlet"
+            android:textColor="@color/whiteColor"
+            android:background="@color/greyColor"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:text="Login"/>
+
+        <Button
+            android:id="@+id/btnregl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnlogl"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/whiteColor"
+            android:background="@color/greyColor"
+            android:ems="10"
+            android:text="Register"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

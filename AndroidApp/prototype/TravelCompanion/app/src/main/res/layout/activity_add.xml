@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/sightimageiv"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:src="@drawable/ic_action_addphoto"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/presspic"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/sightimageiv"
+            android:padding="2dp"
+            android:text="Press to get a picture"
+            >
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightnameet"
+            android:layout_below="@+id/sightimageiv"
+            android:hint="Name"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            tools:ignore="MissingConstraints"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightcountryet"
+            android:layout_below="@+id/sightnameet"
+            android:hint="Country"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            tools:ignore="MissingConstraints"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightadresset"
+            android:layout_below="@+id/sightcountryet"
+            android:hint="Address"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            ></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightareaet"
+            android:layout_below="@+id/sightadresset"
+            android:hint="Area"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            ></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightcommentset"
+            android:layout_below="@+id/sightareaet"
+            android:hint="Enter comments"
+            android:inputType="textLongMessage"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            ></EditText>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addbtn"
+            android:layout_below="@id/sightcommentset"
+            android:layout_centerHorizontal="true"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:textColor="@color/whiteColor"
+            android:background="@color/greyColor"
+            android:layout_marginTop="17dp"
+            ></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnlocation"
+            android:layout_below="@id/addbtn"
+            android:layout_centerHorizontal="true"
+            android:text="Get current location"
+            android:textStyle="bold"
+            android:textColor="@color/whiteColor"
+            android:background="@color/greyColor"
+            android:layout_marginTop="10dp"
+            ></Button>
+
+
+    </RelativeLayout>
+</ScrollView>

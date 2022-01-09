@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/sightimageiv"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:src="@drawable/ic_action_addphoto"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/presspic"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/sightimageiv"
+            android:padding="2dp"
+            android:text="Press to change the picture"
+            >
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightnameet"
+            android:layout_below="@+id/sightimageiv"
+            android:hint="Name"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            ></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightcommentset"
+            android:layout_below="@+id/sightnameet"
+            android:hint="Enter comments"
+            android:inputType="textLongMessage"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            ></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightcountrytv"
+            android:layout_below="@+id/sightnametv"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightadresstv"
+            android:layout_below="@+id/sightcountrytv"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightareatv"
+            android:layout_below="@+id/sightadresstv"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightcommentstv"
+            android:layout_below="@+id/sightareatv"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            ></TextView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addbtn"
+            android:layout_below="@id/sightcommentset"
+            android:layout_centerHorizontal="true"
+            android:text="Update"
+            android:textStyle="bold"
+            android:textColor="@color/whiteColor"
+            android:background="@color/greyColor"
+            android:layout_marginTop="17dp"
+            ></Button>
+
+    </RelativeLayout>
+</ScrollView>

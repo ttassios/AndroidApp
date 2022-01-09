@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/oldbg"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+
+
+        <Button
+            android:id="@+id/btnlogstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/greyColor"
+            android:text="Login"
+            android:textColor="@color/whiteColor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+             />
+
+        <Button
+            android:id="@+id/btnregstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/greyColor"
+            android:text="Register"
+            android:textColor="@color/whiteColor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="360dp"
+             />
+
+    </RelativeLayout>
+</ScrollView>

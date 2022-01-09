@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/sightimageiv"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:src="@drawable/ic_action_addphoto"
+            tools:ignore="MissingConstraints"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightnametv"
+            android:layout_below="@+id/sightimageiv"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="17dp"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightcountrytv"
+            android:layout_below="@+id/sightnametv"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightadresstv"
+            android:layout_below="@+id/sightcountrytv"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightareatv"
+            android:layout_below="@+id/sightadresstv"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sightcommentstv"
+            android:layout_below="@+id/sightareatv"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            ></TextView>
+
+
+
+    </RelativeLayout>
+</ScrollView>

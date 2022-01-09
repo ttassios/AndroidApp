@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/regtv"
+            android:textSize="25sp"
+            android:layout_marginTop="110dp"
+            android:layout_centerHorizontal="true"
+            android:text="Register:"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/fullnamereg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/regtv"
+            android:ems="10"
+            android:hint="Full Name"
+            android:layout_centerHorizontal="true"
+            android:inputType="text"
+            />
+
+
+        <EditText
+            android:id="@+id/usernamereg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/fullnamereg"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_centerHorizontal="true"
+            android:hint="Username"/>
+
+
+        <EditText
+            android:id="@+id/passwordreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/usernamereg"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:hint="Password"/>
+
+        <EditText
+            android:id="@+id/cpasswordreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/passwordreg"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:hint="Confirm Password"/>
+
+        <Button
+            android:id="@+id/btnregr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:background="@color/greyColor"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/cpasswordreg"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:text="Register"
+            />
+
+        <Button
+            android:id="@+id/btnlogr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnregr"
+            android:textColor="@color/whiteColor"
+            android:background="@color/greyColor"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:text="Login"
+            />
+
+
+
+    </RelativeLayout>
+</ScrollView>
